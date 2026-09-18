@@ -1,0 +1,5 @@
+name: qlos-tool-guard
+version: 0.1.0
+description: Block high-risk Hermes tools for non-owner QLOS sessions.
+provides_hooks:
+  - pre_tool_call

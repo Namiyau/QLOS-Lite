@@ -1,0 +1,21 @@
+{
+  "users": {
+    "replace-with-friend-id": { "role": "trusted_friend" }
+  },
+  "groups": {
+    "replace-with-group-id": { "role": "group_member" }
+  },
+  "roles": {
+    "trusted_friend": {
+      "permission": "trusted social contact + sandbox files only",
+      "allow_group_without_at": true
+    },
+    "group_member": {
+      "permission": "group social chat + sandbox task only"
+    },
+    "blocked": {
+      "permission": "blocked",
+      "blocked": true
+    }
+  }
+}

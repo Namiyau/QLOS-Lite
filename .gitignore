@@ -1,0 +1,14 @@
+secrets.local.env
+.env.local
+.env
+roles.json
+state/
+logs/
+media/
+sandbox/
+*.db
+*.db-*
+*.log
+*.jsonl
+__pycache__/
+.pytest_cache/
